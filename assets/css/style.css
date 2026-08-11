@@ -895,3 +895,22 @@ a {
     justify-content: flex-start;
   }
 }
+
+/* Join the group funding information */
+.join-panel-home h3 { margin-top: 1.35rem; margin-bottom: .45rem; }
+.join-panel-home .funding-links { line-height: 1.8; }
+.join-panel-home .funding-links a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
+
+/* Join the group page */
+.join-page { padding-top: 3rem; padding-bottom: 4rem; }
+.join-intro { max-width: 850px; margin-bottom: 3rem; }
+.funding-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
+.funding-card { border: 1px solid rgba(120,120,120,.22); border-radius: 16px; padding: 1.4rem; }
+.funding-card h3 { margin-top: 0; margin-bottom: .65rem; }
+.funding-card p { margin-bottom: .8rem; }
+.funding-card a { text-underline-offset: 3px; }
+.join-contact { margin-top: 1rem; }
+@media (max-width: 760px) {
+  .funding-grid { grid-template-columns: 1fr; }
+  .join-page { padding-top: 2rem; }
+}
