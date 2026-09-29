@@ -120,6 +120,9 @@
 .funding-card h3 { margin-top:0; margin-bottom:.5rem; font-size:1.02rem; }
 .funding-card p { margin-bottom:.7rem; color:var(--muted); }
 .funding-card a { text-underline-offset:3px; }
+.funding-subheading { margin:1.6rem 0 .5rem; font-size:1.05rem; color:var(--text); }
+.funding-subheading-spaced { margin-top:2.3rem; }
+.funding-tip { margin-top:1.2rem; }
 
 @media (max-width:900px) {
   .feature-panel { grid-template-columns:1fr; }
