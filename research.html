@@ -1,7 +1,109 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Research | Eye-Movement Control Group</title><link rel="stylesheet" href="assets/css/style.css"><link rel="stylesheet" href="assets/css/custom.css"></head><body>
-<header class="site-header"><div class="container header-inner"><a class="site-brand-text" href="index.html">Eye-Movement Control Group<span>UCL Experimental Psychology</span></a><nav><ul class="nav-list"><li><a href="index.html">Home</a></li><li><a href="research.html">Research</a></li><li><a href="people.html">People</a></li><li><a href="publications.html">Publications</a></li><li><a href="software.html">Software</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div></header>
-<main class="container page-main"><p class="kicker">Research</p><h1>How do the eyes reveal cognitive control?</h1><p class="page-intro">Our work uses eye movements as a fine-grained measure of cognition. We study how visual and auditory information shapes attention, how readers plan and execute saccades, and how computational models can explain the resulting behaviour.</p>
-<div class="research-detail"><article class="card"><h2>Attention and auditory distraction</h2><p>We investigate how unexpected, deviant and intelligible sounds interfere with ongoing visual behaviour. A central question is how rapidly auditory novelty changes the timing of eye movements and what this tells us about attentional control.</p></article>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Research | Eye-Movement Control Group</title>
+  <meta name="description" content="Research on eye movements, attention, reading, auditory distraction, webcam eye tracking and computational modelling at UCL.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="site-brand-text" href="index.html">Eye-Movement Control Group<span>UCL Experimental Psychology</span></a>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="software.html">Software</a></li>
+        <li><a class="nav-highlight" href="join.html">PhD opportunities</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-<article class="card"><h2>Eye movements during reading</h2><p>We study the mechanisms that guide the eyes through text, including return-sweep saccades, parafoveal processing, word-level influences and the coordination of eye movements in multiline reading.</p></article><article class="card"><h2>Saccade targeting and oculomotor control</h2><p>Our experiments ask which visual and linguistic cues readers use when selecting saccade targets, and how oculomotor constraints interact with language processing.</p></article><article class="card"><h2>Computational modelling</h2><p>We use computational and statistical models to move from descriptive eye-movement effects toward mechanistic explanations of attention and reading behaviour.</p></article><article class="card"><h2>Remote eye tracking</h2><p>We are interested in how lower-cost webcam eye tracking can extend eye-movement research beyond the laboratory while preserving sensitivity to established cognitive effects.</p></article><article class="card"><h2>Evidence synthesis and open science</h2><p>Meta-analysis, Bayesian inference, reproducible workflows and openly shared code are integral parts of our research programme.</p></article></div>
-</main><footer class="site-footer"><div class="container footer-inner"><div><strong>Eye-Movement Control Group</strong><div class="small">University College London</div></div></div></footer></body></html>
+<main class="container page-main">
+  <p class="kicker">Research</p>
+  <h1>Using eye movements to understand cognition</h1>
+  <p class="page-intro">Our work treats eye movements as a real-time measure of cognition. We study how people allocate attention, process written language, recover from difficulty and control where the eyes move next. We also develop methods that make eye-movement research more scalable and accessible.</p>
+
+  <section class="research-programme">
+    <article class="research-programme-card">
+      <p class="eyebrow">Reading &amp; oculomotor control</p>
+      <h2>How do readers decide where to look next?</h2>
+      <p>Reading requires a rapid sequence of decisions about when and where to move the eyes. We study how visual and linguistic information guides those decisions, with particular interest in multiline reading, return-sweep saccades, regressions, refixations and parafoveal processing.</p>
+      <p class="research-question"><strong>Current questions:</strong> How is a new line targeted? Why do readers regress? What information is used when the eyes return to an earlier word?</p>
+    </article>
+
+    <article class="research-programme-card">
+      <p class="eyebrow">Attention &amp; distraction</p>
+      <h2>How quickly does distraction alter visual behaviour?</h2>
+      <p>Unexpected sounds and irrelevant speech can disrupt ongoing cognition. We use eye movements to identify when distraction begins to affect visual processing and whether its effects arise during attentional selection, saccade planning or later processing.</p>
+      <p class="research-question"><strong>Current questions:</strong> How do novelty and background speech alter reading? Are the same mechanisms visible in more naturalistic visual tasks?</p>
+    </article>
+
+    <article class="research-programme-card">
+      <p class="eyebrow">Individual differences</p>
+      <h2>What can eye movements reveal about attentional control in ADHD?</h2>
+      <p>We are developing work that combines eye movements, behavioural measures and computational methods to study individual differences in attention. A current programme uses laboratory data from adults with and without ADHD and explores how these measures could be extended to remote assessment.</p>
+      <p class="research-question"><strong>Current questions:</strong> Which eye-movement signatures are reliable across tasks? Can attentional state be modelled from sample-level gaze data?</p>
+    </article>
+
+    <article class="research-programme-card">
+      <p class="eyebrow">Measurement at scale</p>
+      <h2>Can webcam eye tracking change the questions we ask?</h2>
+      <p>Traditional eye-tracking research provides precise measurement but often uses relatively small samples. We study how browser-based webcam eye tracking can reproduce established effects and, more importantly, enable new high-powered and large-scale research designs.</p>
+      <p class="research-question"><strong>Current questions:</strong> How accurate and stable can browser-based gaze estimation become? Which psychological questions benefit most from hundreds or thousands of participants?</p>
+    </article>
+  </section>
+
+  <section class="feature-panel research-feature">
+    <div>
+      <p class="eyebrow">Method development</p>
+      <h2>OpenEyeTrack</h2>
+      <p>OpenEyeTrack is an open-source browser-based webcam eye-tracking platform under active development. It includes calibration and validation workflows, recording tools, gaze estimation and head-position monitoring, with the longer-term goal of providing a transparent platform for scalable eye-movement research.</p>
+      <p><a class="text-link" href="https://github.com/martin-vasilev/OpenEyeTrack" target="_blank" rel="noreferrer">View the project on GitHub →</a></p>
+    </div>
+    <div class="pill-cloud">
+      <span class="pill">Experimental psychology</span>
+      <span class="pill">Computer vision</span>
+      <span class="pill">Web experiments</span>
+      <span class="pill">Machine learning</span>
+      <span class="pill">Open science</span>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading-block">
+      <p class="eyebrow">How we work</p>
+      <h2>Methods across the research programme</h2>
+    </div>
+    <div class="benefit-grid">
+      <article class="benefit-card"><h3>Laboratory eye tracking</h3><p>High-resolution eye-movement recording for reading, visual attention and oculomotor-control experiments.</p></article>
+      <article class="benefit-card"><h3>Webcam eye tracking</h3><p>Remote gaze measurement designed to extend eye-movement research beyond specialist laboratory settings.</p></article>
+      <article class="benefit-card"><h3>Statistical &amp; computational modelling</h3><p>Mixed-effects models, Bayesian methods, machine learning and models of time-varying attentional behaviour.</p></article>
+      <article class="benefit-card"><h3>Open and reproducible research</h3><p>Preregistration, reusable analysis pipelines, open-source software, shared materials and evidence synthesis.</p></article>
+    </div>
+  </section>
+
+  <section class="cta-panel">
+    <div>
+      <p class="eyebrow">Prospective students</p>
+      <h2>Interested in developing one of these questions into a PhD?</h2>
+      <p>See current project directions and information about approaching the group.</p>
+    </div>
+    <a class="button" href="join.html">Explore PhD opportunities</a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div><strong>Eye-Movement Control Group</strong><div class="small">University College London</div></div>
+  </div>
+</footer>
+</body>
+</html>
