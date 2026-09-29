@@ -146,3 +146,86 @@
 @media (max-width:760px) {
   .join-page { padding-top:2rem; }
 }
+
+/* Funding comparison table */
+.funding-table-wrap {
+  overflow-x:auto;
+  margin-top:1.4rem;
+  border:1px solid var(--border);
+  border-radius:12px;
+  background:var(--surface);
+  -webkit-overflow-scrolling:touch;
+}
+.funding-table {
+  width:100%;
+  min-width:980px;
+  border-collapse:collapse;
+  font-size:.92rem;
+  line-height:1.45;
+}
+.funding-table th,
+.funding-table td {
+  padding:.9rem .85rem;
+  border-bottom:1px solid var(--border);
+  border-right:1px solid var(--border);
+  text-align:left;
+  vertical-align:top;
+}
+.funding-table th:last-child,
+.funding-table td:last-child { border-right:0; }
+.funding-table tbody tr:last-child th,
+.funding-table tbody tr:last-child td { border-bottom:0; }
+.funding-table thead th {
+  position:sticky;
+  top:0;
+  z-index:1;
+  background:#eef5f4;
+  color:var(--text);
+  font-size:.82rem;
+  font-weight:800;
+}
+.funding-table tbody th {
+  width:20%;
+  min-width:210px;
+  background:#fbfcfc;
+  font-weight:700;
+}
+.funding-table tbody th a {
+  color:var(--link);
+  text-decoration:none;
+}
+.funding-table tbody th a:hover { text-decoration:underline; }
+.funding-table td { color:var(--muted); }
+.table-status {
+  display:inline-flex;
+  align-items:center;
+  width:fit-content;
+  padding:.18rem .48rem;
+  border-radius:999px;
+  font-size:.78rem;
+  font-weight:800;
+  line-height:1.25;
+}
+.table-status-yes { background:#e4f4ef; color:#0b6f53; }
+.table-status-no { background:#f3f3f3; color:#676767; }
+.table-status-conditional { background:#fff4dc; color:#8a5a00; }
+.table-note {
+  display:inline-block;
+  margin-top:.28rem;
+  color:var(--muted);
+  font-size:.8rem;
+}
+@media (max-width:760px) {
+  .funding-table-wrap::after {
+    content:"Scroll horizontally to compare all columns →";
+    display:block;
+    position:sticky;
+    left:0;
+    width:100%;
+    padding:.55rem .75rem;
+    border-top:1px solid var(--border);
+    background:#fbfcfc;
+    color:var(--muted);
+    font-size:.78rem;
+  }
+}
