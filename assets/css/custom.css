@@ -120,6 +120,8 @@
 .funding-card h3 { margin-top:0; margin-bottom:.5rem; font-size:1.02rem; }
 .funding-card p { margin-bottom:.7rem; color:var(--muted); }
 .funding-card a { text-underline-offset:3px; }
+.funding-eligibility { margin:.15rem 0 .7rem!important; padding:.55rem .65rem; border-radius:8px; background:#eef8f7; color:var(--text)!important; font-size:.86rem; line-height:1.45; }
+.funding-eligibility strong { color:var(--accent); }
 .funding-subheading { margin:1.6rem 0 .5rem; font-size:1.05rem; color:var(--text); }
 .funding-subheading-spaced { margin-top:2.3rem; }
 .funding-tip { margin-top:1.2rem; }
